@@ -1,0 +1,5 @@
+# Install this ONLY if DATABASE_URL in .env points at MySQL, e.g.:
+#   DATABASE_URL=mysql+pymysql://user:password@localhost:3306/deviation_db
+#
+# Usage:  pip install -r requirements-mysql.txt
+pymysql==1.1.1

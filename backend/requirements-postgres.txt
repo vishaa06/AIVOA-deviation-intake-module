@@ -1,0 +1,10 @@
+# Install this ONLY if DATABASE_URL in .env points at Postgres, e.g.:
+#   DATABASE_URL=postgresql://user:password@localhost:5432/deviation_db
+#
+# Usage:  pip install -r requirements-postgres.txt
+#
+# Using 2.9.10+ specifically because it's the first version with a
+# precompiled Windows wheel for Python 3.13 — older pins (e.g. 2.9.9) force
+# pip to build psycopg2 from source, which fails on Windows without
+# Microsoft's C++ Build Tools installed.
+psycopg2-binary>=2.9.10

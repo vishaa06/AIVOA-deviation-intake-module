@@ -1,0 +1,31 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Environment variables & secrets
+.env
+*.env
+backend/.env
+
+# Local Database
+backend/*.db
+*.sqlite3
+*.db
+
+# Frontend dependencies & build output
+node_modules/
+frontend/node_modules/
+dist/
+build/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Ignored Docs
+DECISIONS.md
